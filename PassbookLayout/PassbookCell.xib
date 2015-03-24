@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="pass" id="gTV-IL-0wX" customClass="PassbookCell" customModule="PassbookLayout" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="644" height="420"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="644" height="420"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Drg-AE-YRj">
+                        <rect key="frame" x="0.0" y="0.0" width="644" height="420"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="pass-mockup-ive" translatesAutoresizingMaskIntoConstraints="NO" id="f4i-P1-jow">
+                                <rect key="frame" x="0.0" y="0.0" width="644" height="420"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TO HELL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJA-Oi-ZET">
+                                <rect key="frame" x="203" y="100" width="238" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="238" id="C5K-sG-7Hw"/>
+                                    <constraint firstAttribute="height" constant="21" id="TOr-Ts-yaF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free Pass" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTQ-zC-Mfj">
+                                <rect key="frame" x="105" y="40" width="434" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2ag-De-Oyu"/>
+                                    <constraint firstAttribute="width" constant="434" id="D6h-dn-auM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="42"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="420" id="3l4-jX-7WB"/>
+                            <constraint firstItem="f4i-P1-jow" firstAttribute="leading" secondItem="Drg-AE-YRj" secondAttribute="leading" id="5sj-y8-yQL"/>
+                            <constraint firstAttribute="bottom" secondItem="f4i-P1-jow" secondAttribute="bottom" id="Mw9-QH-yRC"/>
+                            <constraint firstItem="cTQ-zC-Mfj" firstAttribute="top" secondItem="Drg-AE-YRj" secondAttribute="top" constant="40" id="cKp-Dl-am5"/>
+                            <constraint firstItem="f4i-P1-jow" firstAttribute="top" secondItem="Drg-AE-YRj" secondAttribute="top" id="nTm-Cw-DxM"/>
+                            <constraint firstAttribute="trailing" secondItem="f4i-P1-jow" secondAttribute="trailing" id="o65-Oy-ba1"/>
+                            <constraint firstAttribute="centerX" secondItem="cTQ-zC-Mfj" secondAttribute="centerX" id="qQY-MJ-fhH"/>
+                            <constraint firstItem="kJA-Oi-ZET" firstAttribute="top" secondItem="cTQ-zC-Mfj" secondAttribute="bottom" constant="10" id="u4W-NX-fw3"/>
+                            <constraint firstAttribute="centerX" secondItem="kJA-Oi-ZET" secondAttribute="centerX" id="u6E-aH-JAI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Drg-AE-YRj" secondAttribute="trailing" id="Hi9-Yt-opc"/>
+                <constraint firstItem="Drg-AE-YRj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Hof-3M-oyt"/>
+                <constraint firstItem="Drg-AE-YRj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="MtC-Yu-GMN"/>
+            </constraints>
+            <size key="customSize" width="644" height="420"/>
+            <connections>
+                <outlet property="imageView" destination="f4i-P1-jow" id="wzs-3i-MM2"/>
+                <outlet property="labelSubtitle" destination="kJA-Oi-ZET" id="Xo5-8u-32l"/>
+                <outlet property="labelTitle" destination="cTQ-zC-Mfj" id="JX5-VT-aR4"/>
+            </connections>
+            <point key="canvasLocation" x="517" y="572"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="pass-mockup-ive" width="640" height="840"/>
+    </resources>
+</document>

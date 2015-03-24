@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12626FB61AC000050007B764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12626FB51AC000050007B764 /* AppDelegate.swift */; };
+		12626FB81AC000050007B764 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12626FB71AC000050007B764 /* ViewController.swift */; };
+		12626FBB1AC000050007B764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12626FB91AC000050007B764 /* Main.storyboard */; };
+		12626FBD1AC000050007B764 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12626FBC1AC000050007B764 /* Images.xcassets */; };
+		12626FC01AC000050007B764 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12626FBE1AC000050007B764 /* LaunchScreen.xib */; };
+		12626FCC1AC000050007B764 /* PassbookLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12626FCB1AC000050007B764 /* PassbookLayoutTests.swift */; };
+		12626FD71AC002D30007B764 /* PassbookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12626FD51AC002D30007B764 /* PassbookCell.swift */; };
+		12626FD81AC002D30007B764 /* PassbookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12626FD61AC002D30007B764 /* PassbookCell.xib */; };
+		12626FDB1AC02CCE0007B764 /* PassbookLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12626FDA1AC02CCE0007B764 /* PassbookLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12626FC61AC000050007B764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12626FA81AC000050007B764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12626FAF1AC000050007B764;
+			remoteInfo = PassbookLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12626FB01AC000050007B764 /* PassbookLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassbookLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12626FB41AC000050007B764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12626FB51AC000050007B764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12626FB71AC000050007B764 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12626FBA1AC000050007B764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12626FBC1AC000050007B764 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12626FBF1AC000050007B764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		12626FC51AC000050007B764 /* PassbookLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassbookLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12626FCA1AC000050007B764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12626FCB1AC000050007B764 /* PassbookLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassbookLayoutTests.swift; sourceTree = "<group>"; };
+		12626FD51AC002D30007B764 /* PassbookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassbookCell.swift; sourceTree = "<group>"; };
+		12626FD61AC002D30007B764 /* PassbookCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassbookCell.xib; sourceTree = "<group>"; };
+		12626FDA1AC02CCE0007B764 /* PassbookLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassbookLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12626FAD1AC000050007B764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12626FC21AC000050007B764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12626FA71AC000050007B764 = {
+			isa = PBXGroup;
+			children = (
+				12626FD91AC02CB00007B764 /* Layout */,
+				12626FB21AC000050007B764 /* PassbookLayout */,
+				12626FC81AC000050007B764 /* PassbookLayoutTests */,
+				12626FB11AC000050007B764 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12626FB11AC000050007B764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12626FB01AC000050007B764 /* PassbookLayout.app */,
+				12626FC51AC000050007B764 /* PassbookLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12626FB21AC000050007B764 /* PassbookLayout */ = {
+			isa = PBXGroup;
+			children = (
+				12626FB51AC000050007B764 /* AppDelegate.swift */,
+				12626FB71AC000050007B764 /* ViewController.swift */,
+				12626FB91AC000050007B764 /* Main.storyboard */,
+				12626FBC1AC000050007B764 /* Images.xcassets */,
+				12626FBE1AC000050007B764 /* LaunchScreen.xib */,
+				12626FD51AC002D30007B764 /* PassbookCell.swift */,
+				12626FD61AC002D30007B764 /* PassbookCell.xib */,
+				12626FB31AC000050007B764 /* Supporting Files */,
+			);
+			path = PassbookLayout;
+			sourceTree = "<group>";
+		};
+		12626FB31AC000050007B764 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12626FB41AC000050007B764 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12626FC81AC000050007B764 /* PassbookLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				12626FCB1AC000050007B764 /* PassbookLayoutTests.swift */,
+				12626FC91AC000050007B764 /* Supporting Files */,
+			);
+			path = PassbookLayoutTests;
+			sourceTree = "<group>";
+		};
+		12626FC91AC000050007B764 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12626FCA1AC000050007B764 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12626FD91AC02CB00007B764 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				12626FDA1AC02CCE0007B764 /* PassbookLayout.swift */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12626FAF1AC000050007B764 /* PassbookLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12626FCF1AC000050007B764 /* Build configuration list for PBXNativeTarget "PassbookLayout" */;
+			buildPhases = (
+				12626FAC1AC000050007B764 /* Sources */,
+				12626FAD1AC000050007B764 /* Frameworks */,
+				12626FAE1AC000050007B764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassbookLayout;
+			productName = PassbookLayout;
+			productReference = 12626FB01AC000050007B764 /* PassbookLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12626FC41AC000050007B764 /* PassbookLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12626FD21AC000050007B764 /* Build configuration list for PBXNativeTarget "PassbookLayoutTests" */;
+			buildPhases = (
+				12626FC11AC000050007B764 /* Sources */,
+				12626FC21AC000050007B764 /* Frameworks */,
+				12626FC31AC000050007B764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12626FC71AC000050007B764 /* PBXTargetDependency */,
+			);
+			name = PassbookLayoutTests;
+			productName = PassbookLayoutTests;
+			productReference = 12626FC51AC000050007B764 /* PassbookLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12626FA81AC000050007B764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "田程元";
+				TargetAttributes = {
+					12626FAF1AC000050007B764 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					12626FC41AC000050007B764 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 12626FAF1AC000050007B764;
+					};
+				};
+			};
+			buildConfigurationList = 12626FAB1AC000050007B764 /* Build configuration list for PBXProject "PassbookLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12626FA71AC000050007B764;
+			productRefGroup = 12626FB11AC000050007B764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12626FAF1AC000050007B764 /* PassbookLayout */,
+				12626FC41AC000050007B764 /* PassbookLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12626FAE1AC000050007B764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12626FBB1AC000050007B764 /* Main.storyboard in Resources */,
+				12626FC01AC000050007B764 /* LaunchScreen.xib in Resources */,
+				12626FBD1AC000050007B764 /* Images.xcassets in Resources */,
+				12626FD81AC002D30007B764 /* PassbookCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12626FC31AC000050007B764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12626FAC1AC000050007B764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12626FB81AC000050007B764 /* ViewController.swift in Sources */,
+				12626FB61AC000050007B764 /* AppDelegate.swift in Sources */,
+				12626FD71AC002D30007B764 /* PassbookCell.swift in Sources */,
+				12626FDB1AC02CCE0007B764 /* PassbookLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12626FC11AC000050007B764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12626FCC1AC000050007B764 /* PassbookLayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12626FC71AC000050007B764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12626FAF1AC000050007B764 /* PassbookLayout */;
+			targetProxy = 12626FC61AC000050007B764 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12626FB91AC000050007B764 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12626FBA1AC000050007B764 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12626FBE1AC000050007B764 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12626FBF1AC000050007B764 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12626FCD1AC000050007B764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12626FCE1AC000050007B764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12626FD01AC000050007B764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PassbookLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12626FD11AC000050007B764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PassbookLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12626FD31AC000050007B764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PassbookLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassbookLayout.app/PassbookLayout";
+			};
+			name = Debug;
+		};
+		12626FD41AC000050007B764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PassbookLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassbookLayout.app/PassbookLayout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12626FAB1AC000050007B764 /* Build configuration list for PBXProject "PassbookLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12626FCD1AC000050007B764 /* Debug */,
+				12626FCE1AC000050007B764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12626FCF1AC000050007B764 /* Build configuration list for PBXNativeTarget "PassbookLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12626FD01AC000050007B764 /* Debug */,
+				12626FD11AC000050007B764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12626FD21AC000050007B764 /* Build configuration list for PBXNativeTarget "PassbookLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12626FD31AC000050007B764 /* Debug */,
+				12626FD41AC000050007B764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12626FA81AC000050007B764 /* Project object */;
+}
