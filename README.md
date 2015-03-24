@@ -25,7 +25,7 @@ Section support, currently, it only supports just section 0.
 Centering cells when there's just a few passes (like passbooks does, could be hacked in).
 Intended use
 
-This collection view is suitable for applications that want to mimick the behaviour of the included Apple Passbook on iOS devices (iOS 6 onwards).
+This collection view is suitable for applications that want to mimick the behaviour of the included Apple Passbook on iOS devices.
 
 This collection view layout is rather inneficient compared to other layouts, it invalidates for each change of bounds to support it's fancy animations. On the other hand, it only recalculates the currently visible cells, so it can support big numbers of cells, just don't make each cell expensive to redraw/rescale.
 
