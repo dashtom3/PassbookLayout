@@ -1,5 +1,5 @@
 # PassbookLayout
-Mimicking the behaviour of the Passbooks apps in iOS using a custom UICollectionViewLayout.Copy from CanTheAlmighty and change to Swift
+Mimicking the behaviour of the Passbooks apps in iOS using a custom UICollectionViewLayout.Copy from CanTheAlmighty and change to Swift.
 After he agreed me to push the swift version,I did it.
 
 # Installation
